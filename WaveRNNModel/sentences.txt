@@ -1,0 +1,6 @@
+However, no attempt has been made yet to formulat a relativistic generalisation of action-angle variables for geodesic motion in Kerr spacetime and to calculate the dynamical frequencies of arbitrary bound non-plunging orbits.
+
+The investigation of bound geodesic orbits in Kerr spacetime presented in this article clearly illustrates that the properties of these orbits in the regime of strong gravity are profoundly different from Keplerian orbits in the Newtonian regime. 
+
+The observation of as few as ten EMRIs can provide a measurement of the slope of the black-hole mass function to better precision than is currently known.
+

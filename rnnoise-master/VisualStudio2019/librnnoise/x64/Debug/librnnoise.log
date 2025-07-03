@@ -1,0 +1,9 @@
+﻿  celt_lpc.c
+  denoise.c
+  kiss_fft.c
+  pitch.c
+  rnn.c
+  rnn_data.c
+  rnn_reader.c
+  正在生成代码...
+  librnnoise.vcxproj -> E:\智能语音处理系统\Noise-suppression-and-speech-recognition-systems-master\rnnoise-master\VisualStudio2019\x64\Debug\librnnoise.lib

@@ -1,0 +1,31 @@
++-------------+
+| NAR Dataset |
++-------------+
+
++--------------------------------------------------------------------------+
+Author : Maxime Janvier maxime.janvier@gmail.com
+Lab : INRIA Rhones-Alpes Perception team (https://team.inria.fr/perception)
+Download link : https://team.inria.fr/perception/nard
++--------------------------------------------------------------------------+
+
+The NAR dataset  is a set of audio recordings made with the humanoid robot Nao in real world conditions for supervised sound classification applications. All the recordings have been produced using the robot’s auditory devices and thus have the following characteristics :
+    * recorded with low-quality sensors (300 Hz-18 kH bandpass)
+    * suffering from typical internal as the fan noise
+    * recorded in mutiple real domestic environments (no special acoustic charateristics, reverberations, multiple sound sources locations)
+
+It is freely accessible for scientific research purposes and for non-commercial applications.
+
+The dataset is organised as follows :
+	* Each class is represented by a folder containing all the audio files labeled with the class.
+	* The name of a folder is the name of the class attached. The name of an audio file is “foldername$id.wav” where $id is an incremental identifier starting at 1.
+	* Each audio file is provided in a WAV format (mono signal, 48kHz sampling rate and 16 bits per sample).
+	* 42 differents class for 852 sounds have been recorded and organised into 4 scenarios :
+		Kitchen   (12 classes) 	Eating, Choking, Cuttlery, Fill a glass, Running the tap, Open/close a drawer, Move a chair, Open microwave, Close microwave, Microwave, Fridge, Toaster
+		Office 	  (7 classes)	Door Close, Open, Key, Knock, Ripped Paper, Zip, (another) Zip
+		Nonverbal (3 classes)	Fingerclap, Handclap, Tongue Clic
+		Speech 	  (20 classes)	1,2,3,4,5,6,7,8,9,10, Hello, Left, Right, Turn, Move, Stop, Nao, Yes, No, What
+
+Related Papers :
+    “A sound Representation and Classification Benchmark for Robot Audition” (ICRA 2014)
+    “Sound-Event Recognition with a Companion Humanoid” (Humanoids 2012)
+
